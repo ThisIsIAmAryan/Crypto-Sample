@@ -1,4 +1,5 @@
 {
+  "homepage": "https://ThisIsIAmAryan.github.io/Crypto-Sample",
   "name": "flux_-_figma_build_tutorial_(starter)_(community)",
   "version": "0.1.0",
   "private": true,
@@ -29,6 +30,8 @@
   },
   "scripts": {
     "start": "vite",
+    "predeploy":"npm start",
+    "deploy":"gh-pages -d build",
     "build": "vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
