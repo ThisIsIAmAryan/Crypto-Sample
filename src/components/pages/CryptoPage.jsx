@@ -1,6 +1,6 @@
-import GroupComponent from "../components/GroupComponent";
-import TestimonialOne from "../components/TestimonialOne";
-import CallForAction from "../components/CallForAction";
+import GroupComponent from "../GroupComponent";
+import TestimonialOne from "../TestimonialOne";
+import CallForAction from "../CallForAction";
 
 const CryptoPage = () => {
   return (

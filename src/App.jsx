@@ -5,7 +5,7 @@ import {
   useNavigationType,
   useLocation,
 } from "react-router-dom";
-import CryptoPage from "./pages/CryptoPage";
+import CryptoPage from "./components/pages/CryptoPage";
 
 function App() {
   const action = useNavigationType();
